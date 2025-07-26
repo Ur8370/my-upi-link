@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Link</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .payment-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            background-color: #673AB7; /* A nice purple, common in UPI apps */
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .payment-button:hover {
+            background-color: #512DA8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click Below to Book Your Seat!</h1>
+    <p>Amount: ₹599.00</p>
+    <a class="payment-button" href="upi://pay?pa=riyadebnath7047@oksbi&pn=Riya%20Debnath&am=599.00&cu=INR&tn=Cake%20Workshop%20Seat%20Booking">Pay Now via UPI</a>
+    <p> (This link works best on mobile devices with a UPI app installed.)</p>
+</body>
+</html>
